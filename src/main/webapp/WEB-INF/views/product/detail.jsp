@@ -9,6 +9,7 @@
     <title>텀블벅</title>
     <link rel="stylesheet" href="/static/main/style.css">
     <link rel="stylesheet" href="/static/main/common.css">
+    <link rel="stylesheet" href="/static/product/css/detail.css">
     <script src="https://kit.fontawesome.com/409fef83e5.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="/static/product/vendor/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="/static/product/vendor/jquery-ui.js"></script>
@@ -406,7 +407,7 @@
                                 <div class="crtGr">
                                     <div class="crtPrf">
                                         <a href="#" class="prfImg">
-                                            <img src="../img/seili.webp" alt="">
+                                            <img src="/static/img/seili.webp" alt="">
                                         </a>
                                         <div class="crtIf">
                                             <div class="crtName">
@@ -749,7 +750,7 @@
                                     <div class="cardItem"><!--업데이트 작가 공지사항-->
                                         <div class="crtPrf">
                                             <a href="#" class="prfImg">
-                                                <img src="../img/seili.webp" alt="">
+                                                <img src="/static/img/seili.webp" alt="">
                                             </a>
                                             <div class="crtIf">
                                                 <div class="crtName">
@@ -763,7 +764,7 @@
                                         </div>
                                         <div class="crtWrt">
                                             <div class="crtWdt">
-                                                <img class="lockImg" src="../img/lock.png" alt="자물쇠">
+                                                <img class="lockImg" src="/static/img/lock.png" alt="자물쇠">
                                                 <p class="lockWrt">후원자만 볼 수 있는 글입니다.</p>
                                             </div>
                                         </div>
@@ -786,7 +787,7 @@
                                     <div class="cardItem">
                                         <div class="crtPrf">
                                             <a href="#" class="prfImg">
-                                                <img src="../img/seili.webp" alt="">
+                                                <img src="/static/img/seili.webp" alt="">
                                             </a>
                                             <div class="crtIf">
                                                 <div class="crtName">
@@ -800,7 +801,7 @@
                                         </div>
                                         <div class="crtWrt">
                                             <div class="crtWdt">
-                                                <img class="lockImg" src="../img/lock.png" alt="자물쇠">
+                                                <img class="lockImg" src="/static/img/lock.png" alt="자물쇠">
                                                 <p class="lockWrt">후원자만 볼 수 있는 글입니다.</p>
                                             </div>
                                         </div>
@@ -823,7 +824,7 @@
                                     <div class="cardItem">
                                         <div class="crtPrf">
                                             <a href="#" class="prfImg">
-                                                <img src="../img/seili.webp" alt="">
+                                                <img src="/static/img/seili.webp" alt="">
                                             </a>
                                             <div class="crtIf">
                                                 <div class="crtName">
@@ -837,7 +838,7 @@
                                         </div>
                                         <div class="crtWrt">
                                             <div class="crtWdt">
-                                                <img class="lockImg" src="../img/lock.png" alt="자물쇠">
+                                                <img class="lockImg" src="/static/img/lock.png" alt="자물쇠">
                                                 <p class="lockWrt">후원자만 볼 수 있는 글입니다.</p>
                                             </div>
                                         </div>
@@ -860,7 +861,7 @@
                                     <div class="cardItem">
                                         <div class="crtPrf">
                                             <a href="#" class="prfImg">
-                                                <img src="../img/seili.webp" alt="">
+                                                <img src="/static/img/seili.webp" alt="">
                                             </a>
                                             <div class="crtIf">
                                                 <div class="crtName">
@@ -874,7 +875,7 @@
                                         </div>
                                         <div class="crtWrt">
                                             <div class="crtWdt">
-                                                <img class="lockImg" src="../img/lock.png" alt="자물쇠">
+                                                <img class="lockImg" src="/static/img/lock.png" alt="자물쇠">
                                                 <p class="lockWrt">후원자만 볼 수 있는 글입니다.</p>
                                             </div>
                                         </div>
@@ -902,7 +903,7 @@
                                             <div class="crtGr">
                                                 <div class="crtPrf">
                                                     <a href="#" class="prfImg">
-                                                        <img src="../img/seili.webp" alt="">
+                                                        <img src="/static/img/seili.webp" alt="">
                                                     </a>
                                                     <div class="crtIf">
                                                         <div class="crtName">
@@ -1271,9 +1272,278 @@
                     <div class="cont on">
                         <div class="tabConWrap">
                             <div class="tabFlx">
-                                <!--이중 탭-->
-                                <div class="">
-                                    <!--콘텐츠-->
+                                <div class="cardRow">
+                                    <div class="commuRead">
+                                        <div class="commuNtc">
+                                            <div class="crtUpdimg">
+                                                <i class="fa-solid fa-thumbtack fa-xs" style="color: #eb4e38;"></i>
+                                                <span class="crtUpd">창작자 업데이트</span>
+                                            </div>
+                                            <div class="commuBox">
+                                                <div class="crtGr commuBoard">
+                                                    <div class="crtPrf">
+                                                        <a href="#" class="prfImg">
+                                                            <img src="../img/seili.webp" alt="">
+                                                        </a>
+                                                        <div class="crtIf">
+                                                            <div class="crtName">
+                                                                <a href="#">세이리 SEI LI</a>
+                                                            </div>
+                                                            <div class="crtGrade">
+                                                                <i class="fa-solid fa-star fa-xs" style="color: #f86453;"></i>
+                                                                <span class="crtGrname">창작자</span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="commuCrtwrt">
+                                                    <p>
+                                                        <img src="/static/img/uptImg.webp" alt="">
+                                                    </p>
+                                                    <p>&nbsp;</p>
+                                                    <p>안녕하세요. 세이리입니다.&nbsp;</p>
+                                                    <p>&nbsp;</p>
+                                                    <p>라일락 생화를 담은 "블로썸" 오 드 퍼퓸의 텀블벅 런칭을 앞두고</p>
+                                                    <p>펀딩 전, 시향을 해보고 싶다는 분들이 많으셨어요!</p>
+                                                    <p>세이리는 기존에도 <u><strong>시향지키트</strong></u>를 선보이고 있는데요,</p>
+                                                    <p><u><strong>블로썸까지 포함하여 서비스</strong></u>를 해드리기로 하였습니다.</p>
+                                                    <p>&nbsp;</p>
+                                                    <p>시향지의 특성상 향의 첫 노트, 즉 탑노트까지 온전히 전해드릴 수는 없으나</p>
+                                                    <p>향의 전반적인 뉘앙스를 경험하시는 데 도움이 되시리라 생각합니다 ☺️</p>
+                                                    <p>&nbsp;</p>
+                                                    <p><strong>세이리 시향지는</strong></p>
+                                                    <p><strong>2~3회에 걸쳐 적시고 말리는 작업을 반복, 정성껏 작업하여 향이 오랜 시간 지속</strong>됩니다.</p>
+                                                    <p>개별 OPP 비닐에 담아 향이 섞이지 않으며</p>
+                                                    <p>윗부분 접착이 없는 봉투라 살짝 열어 시향 하시면 됩니다.</p>
+                                                    <p>&nbsp;</p>
+                                                    <p>시향지 세트의 가격은 100원이며, 배송비 3,000원이 추가됩니다.</p>
+                                                    <p>펀딩 시작 전까지의 금액이며 추후 100원-&gt;1,000원으로 시향지 세트의 가격은 인상됩니다.</p>
+                                                    <p>&nbsp;</p>
+                                                    <p>&nbsp;</p>
+                                                    <p><u>✔️ <strong>세이리 시향 키트 포함 향기</strong></u></p>
+                                                    <p><strong>누드 / 샘 / 오스만투스 / 그린모스 / 세이렌 / 새벽정원 / 폴인그라스 / 블랑 / **블로썸</strong></p>
+                                                    <p>&nbsp;</p>
+                                                    <p>세이리 예쁜 일러스트 엽서도 동봉해드립니다.</p>
+                                                    <p>공홈이나, 세이리 공식 스마트스토어에서 구매 가능하십니다!&nbsp;</p>
+                                                    <p>세이리를 향한 응원과 관심에 늘 감사드립니다 ☺️</p>
+                                                    <p>&nbsp;</p>
+                                                    <p>&nbsp;</p>
+                                                    <h2><strong>📍 시향지 구매 링크&nbsp;</strong></h2>
+                                                    <h2>
+                                                        <strong>1)
+                                                            <a href="https://www.sei-li.com/product/%EC%84%B8%EC%9D%B4%EB%A6%AC-%EC%8B%9C%ED%96%A5%EC%B9%B4%EB%93%9C-%ED%82%A4%ED%8A%B8/230/category/63/display/1/" target="_blank" rel="noopener noreferrer">세이리 공홈 바로가기</a>
+                                                        </strong>
+                                                    </h2>
+                                                    <h2>
+                                                        <strong>2)
+                                                            <a href="https://smartstore.naver.com/seili/products/9565480917" target="_blank" rel="noopener noreferrer">세이리 네이버스마트스토어 바로가기</a>
+                                                        </strong>
+                                                    </h2>
+                                                    <h2>&nbsp;</h2>
+                                                </div>
+                                                <div class="commuBlur"></div>
+                                                <div class="moreView">
+                                                    <button class="moreBtn">
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                        <div class="moreTxt">더보기</div>
+                                                    </button>
+                                                </div>
+                                                <div class="wrtInfo">
+                                                    <div class="crtDate">
+                                                        <span class="wrtDate">2024.01.31</span>
+                                                        <span class="wrtStt">수정됨</span>
+                                                    </div>
+                                                    <div class="crtRepl">
+                                                        <button class="crtCmmt">
+                                                            댓글&nbsp;<span>2</span>개
+                                                        </button>
+                                                        <div class="crtLike">
+                                                            <i class="fa-regular fa-thumbs-up" style="color: #9e9e9e;"></i>
+                                                            <span>3</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wrtRepl">
+                                                    <div class="replCnt">
+                                                        댓글
+                                                        <strong>0</strong>
+                                                    </div>
+                                                    <div class="imgGroup">
+                                                        <button>
+                                                            <i class="fa-solid fa-comment fa-lg" style="color : #6d6d6d;"></i>
+                                                        </button>
+                                                        <button>
+                                                            <i class="fa-brands fa-twitter fa-lg" style="color: #6d6d6d;"></i>
+                                                        </button>
+                                                        <button>
+                                                            <i class="fa-brands fa-facebook fa-lg" style="color: #6d6d6d;"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="replyPlc">
+                                                    <div class="replTxt">댓글이 없습니다.</div>
+                                                </div>
+                                                <div class="replyIptbox">
+                                                    <div class="userProf"></div>
+                                                    <div class="replyIpt">
+                                                        <form action="">
+                                                            <input type="text" class="replyMessage" placeholder="댓글을 작성해주세요.">
+                                                        </form>
+                                                    </div>
+                                                    <button class="msgsdBtn">등록</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardItem"><!--업데이트 작가 공지사항-->
+                                        <div class="crtPrf">
+                                            <a href="#" class="prfImg">
+                                                <img src="/static/img/seili.webp" alt="">
+                                            </a>
+                                            <div class="crtIf">
+                                                <div class="crtName">
+                                                    <a href="#">세이리 SEI LI</a>
+                                                </div>
+                                                <div class="crtStatus">
+                                                    <span class="crtJob">창작자</span>
+                                                    <span class="crtLmt">후원자 공개</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="crtWrt">
+                                            <div class="crtWdt">
+                                                <img class="lockImg" src="/static/img/lock.png" alt="자물쇠">
+                                                <p class="lockWrt">후원자만 볼 수 있는 글입니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="wrtInfo">
+                                            <div class="crtDate">
+                                                <span class="wrtDate">2024.01.31</span>
+                                                <span class="wrtStt">수정됨</span>
+                                            </div>
+                                            <div class="crtRepl">
+                                                <button class="crtCmmt">
+                                                    댓글&nbsp;<span>2</span>개
+                                                </button>
+                                                <div class="crtLike">
+                                                    <i class="fa-regular fa-thumbs-up" style="color: #9e9e9e;"></i>
+                                                    <span>3</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardItem">
+                                        <div class="crtPrf">
+                                            <a href="#" class="prfImg">
+                                                <img src="/static/img/seili.webp" alt="">
+                                            </a>
+                                            <div class="crtIf">
+                                                <div class="crtName">
+                                                    <a href="#">세이리 SEI LI</a>
+                                                </div>
+                                                <div class="crtStatus">
+                                                    <span class="crtJob">창작자</span>
+                                                    <span class="crtLmt">후원자 공개</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="crtWrt">
+                                            <div class="crtWdt">
+                                                <img class="lockImg" src="/static/img/lock.png" alt="자물쇠">
+                                                <p class="lockWrt">후원자만 볼 수 있는 글입니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="wrtInfo">
+                                            <div class="crtDate">
+                                                <span class="wrtDate">2024.01.31</span>
+                                                <span class="wrtStt">수정됨</span>
+                                            </div>
+                                            <div class="crtRepl">
+                                                <button class="crtCmmt">
+                                                    댓글&nbsp;<span>2</span>개
+                                                </button>
+                                                <div class="crtLike">
+                                                    <i class="fa-regular fa-thumbs-up" style="color: #9e9e9e;"></i>
+                                                    <span>3</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardItem">
+                                        <div class="crtPrf">
+                                            <a href="#" class="prfImg">
+                                                <img src="/static/img/seili.webp" alt="">
+                                            </a>
+                                            <div class="crtIf">
+                                                <div class="crtName">
+                                                    <a href="#">세이리 SEI LI</a>
+                                                </div>
+                                                <div class="crtStatus">
+                                                    <span class="crtJob">창작자</span>
+                                                    <span class="crtLmt">후원자 공개</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="crtWrt">
+                                            <div class="crtWdt">
+                                                <img class="lockImg" src="/static/img/lock.png" alt="자물쇠">
+                                                <p class="lockWrt">후원자만 볼 수 있는 글입니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="wrtInfo">
+                                            <div class="crtDate">
+                                                <span class="wrtDate">2024.01.31</span>
+                                                <span class="wrtStt">수정됨</span>
+                                            </div>
+                                            <div class="crtRepl">
+                                                <button class="crtCmmt">
+                                                    댓글&nbsp;<span>2</span>개
+                                                </button>
+                                                <div class="crtLike">
+                                                    <i class="fa-regular fa-thumbs-up" style="color: #9e9e9e;"></i>
+                                                    <span>3</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardItem">
+                                        <div class="crtPrf">
+                                            <a href="#" class="prfImg">
+                                                <img src="/static/img/seili.webp" alt="">
+                                            </a>
+                                            <div class="crtIf">
+                                                <div class="crtName">
+                                                    <a href="#">세이리 SEI LI</a>
+                                                </div>
+                                                <div class="crtStatus">
+                                                    <span class="crtJob">창작자</span>
+                                                    <span class="crtLmt">후원자 공개</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="crtWrt">
+                                            <div class="crtWdt">
+                                                <img class="lockImg" src="/static/img/lock.png" alt="자물쇠">
+                                                <p class="lockWrt">후원자만 볼 수 있는 글입니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="wrtInfo">
+                                            <div class="crtDate">
+                                                <span class="wrtDate">2024.01.31</span>
+                                                <span class="wrtStt">수정됨</span>
+                                            </div>
+                                            <div class="crtRepl">
+                                                <button class="crtCmmt">
+                                                    댓글&nbsp;<span>2</span>개
+                                                </button>
+                                                <div class="crtLike">
+                                                    <i class="fa-regular fa-thumbs-up" style="color: #9e9e9e;"></i>
+                                                    <span>3</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="gftInfo">
                                     <div class="crtInfo">
@@ -1282,7 +1552,7 @@
                                             <div class="crtGr">
                                                 <div class="crtPrf">
                                                     <a href="#" class="prfImg">
-                                                        <img src="../img/seili.webp" alt="">
+                                                        <img src="/static/img/seili.webp" alt="">
                                                     </a>
                                                     <div class="crtIf">
                                                         <div class="crtName">
@@ -2393,7 +2663,7 @@
                                         <div class="crtGr">
                                             <div class="crtPrf">
                                                 <a href="#" class="prfImg">
-                                                    <img src="../img/seili.webp" alt="">
+                                                    <img src="/static/img/seili.webp" alt="">
                                                 </a>
                                                 <div class="crtIf">
                                                     <div class="crtName">

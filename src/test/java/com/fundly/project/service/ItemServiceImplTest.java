@@ -1,10 +1,10 @@
 package com.fundly.project.service;
 
-import com.fundly.project.model.GiftItemDetailMapper;
+//import com.fundly.project.model.GiftItemDetailMapper;
 import com.fundly.project.model.GiftMapper;
 import com.fundly.project.model.ItemMapper;
 import com.persistence.dto.GiftDto;
-import com.persistence.dto.GiftItemDetailDto;
+//import com.persistence.dto.GiftItemDetailDto;
 import com.persistence.dto.ItemDto;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -19,7 +19,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.assertThat;
+//import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.BDDMockito.given;
 
 @Slf4j
