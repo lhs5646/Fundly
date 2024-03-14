@@ -30,6 +30,7 @@
 <body>
 <div class="userId">bada@naver.com</div>
 <div class="pjId">P5040</div>
+<%-- 공용 헤더 페이지에 붙임 --%>
 <%-- LoginInfo --%>
 <c:set var="loginInfo" value="${user_email=='' || user_email == null ? '로그인/회원가입' : userInfo.user_name}"/>
 <c:set var="userprofileImg" value="${user_profileImg=='' || user_profileImg == null ? '/static/img/avatar.webp' : '/user/img/'}"/>
@@ -51,7 +52,7 @@
             </div>
 
             <div class="userIf" >
-                <div class="infoGr" id = "loginInfo">
+                <div class="infoGr" id ="loginInfo">
                     <div class="ifImg">
                         <span id="profileImg" style="background: url('${userprofileImg}${user_profileImg}') 50% 37% / cover no-repeat"></span>
                     </div>
