@@ -565,7 +565,7 @@
                                     <div class="prdtSlct" id="prdtPayment">
                                         <div class="prdtBox">
                                             <div class="prdboxGrp">
-                                                <div class="prdboxTit">[텀블벅 혜택]블로썸 퍼퓸 1개/26% 할인가/배송비포함</div>
+                                                <div class="prdboxTit">[텀블벅 혜택]블로썸 퍼퓸 1개/26% 할인가/배송비포함~</div>
                                                 <div class="xBtnWrap">
                                                     <button class="b-close btnSlct">닫기</button>
                                                 </div>
